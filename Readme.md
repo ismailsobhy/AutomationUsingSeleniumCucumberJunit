@@ -16,4 +16,4 @@ The project consists of the following:
 * TestRunner.java under org.automation.testrunner. You can define the feature you using, the StepDefinations.java as the glue used to link to feature and also the path for generating the extent report and path of extent report config.
 
 Installation:
-This project is a maven project, and can be downloaded from the git and import as a maven project in eclipse or select import git projects in eclipse
+This project is a maven project, and can be both acquired from github and imported as a maven project in eclipse/intellij. 
