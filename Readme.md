@@ -17,3 +17,5 @@ The project consists of the following:
 
 Installation:
 This project is a maven project, and can be both acquired from github and imported as a maven project in eclipse/intellij. 
+
+The extent report is stored in target\cucumber-reports\report.html
