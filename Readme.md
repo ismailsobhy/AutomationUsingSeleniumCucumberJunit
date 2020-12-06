@@ -2,7 +2,8 @@ Project with BDD with Cucumber/Selenium/Junit/Extent reports
 =================
 
 The project is a behavior driven development(BDD) for the sample website http://parabank.parasoft.com/ for the following Scenarios:
------------------------------------
+
+
 *Register
 *User Login
 *User Logsout
