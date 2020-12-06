@@ -5,7 +5,7 @@ The project is a behavior driven development(BDD) for the sample website http://
 
 - Register
 - User Login
-- User Logsout
+- User Logout
 - bill payment
 - Update Profile
 - User requests loan
