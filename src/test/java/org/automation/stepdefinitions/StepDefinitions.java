@@ -85,7 +85,10 @@ public class StepDefinitions {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		waitVar.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Customer Login')]")));
+
+		
+		waitVar.until(
+				ExpectedConditions.visibilityOfElementLocated(By.name("username")));
 
 	}
 
@@ -105,7 +108,7 @@ public class StepDefinitions {
 	public void isCustomerLoginDisplayed() {
 
 		waitVar.until(
-				ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Customer Login')]")));
+				ExpectedConditions.visibilityOfElementLocated(By.name("username")));
 
 	}
 
@@ -220,7 +223,7 @@ public class StepDefinitions {
 	public void isAccountServicesDisplayed() {
 
 		waitVar.until(
-				ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'Account Services')]")));
+				ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[contains(text(),'Account Services')]")));
 	}
 
 	/**

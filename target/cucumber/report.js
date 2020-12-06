@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8101619800,
+  "duration": 7182993900,
   "status": "passed"
 });
 formatter.scenario({
@@ -47,43 +47,43 @@ formatter.match({
   "location": "StepDefinitions.userOnHomepage()"
 });
 formatter.result({
-  "duration": 230686900,
+  "duration": 88195800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.clickOnRegister()"
 });
 formatter.result({
-  "duration": 715644400,
+  "duration": 767544400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.verifySignUpPageDisplayed()"
 });
 formatter.result({
-  "duration": 62978500,
+  "duration": 27162400,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.fillSignUpForm()"
 });
 formatter.result({
-  "duration": 1862841400,
+  "duration": 1187542200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.isRegistrationIsSuccessful()"
 });
 formatter.result({
-  "duration": 49943800,
+  "duration": 29812000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 686759900,
+  "duration": 619087100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6008075600,
+  "duration": 5381635000,
   "status": "passed"
 });
 formatter.scenario({
@@ -114,56 +114,44 @@ formatter.step({
   "name": "user logs out",
   "keyword": "When "
 });
-formatter.step({
-  "line": 15,
-  "name": "verify customer login is displayed",
-  "keyword": "Then "
-});
 formatter.match({
   "location": "StepDefinitions.userOnHomepage()"
 });
 formatter.result({
-  "duration": 48322100,
+  "duration": 23987700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.userLogsIn()"
 });
 formatter.result({
-  "duration": 1660351100,
+  "duration": 926132500,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.isAccountServicesDisplayed()"
 });
 formatter.result({
-  "duration": 64329500,
+  "duration": 28883300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.userLogsOut()"
 });
 formatter.result({
-  "duration": 1008081500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinitions.isCustomerLoginDisplayed()"
-});
-formatter.result({
-  "duration": 38571500,
+  "duration": 809036600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 685314900,
+  "duration": 602634100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5857467400,
+  "duration": 8156875200,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 17,
+  "line": 16,
   "name": "User Logsout",
   "description": "",
   "id": "parabank;user-logsout",
@@ -171,27 +159,27 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "user is on homepage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 19,
+  "line": 18,
   "name": "user logs in after registration",
   "keyword": "When "
 });
 formatter.step({
-  "line": 20,
+  "line": 19,
   "name": "verify account services is displayed",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 21,
+  "line": 20,
   "name": "user logs out",
   "keyword": "When "
 });
 formatter.step({
-  "line": 22,
+  "line": 21,
   "name": "verify customer login is displayed",
   "keyword": "Then "
 });
@@ -199,47 +187,47 @@ formatter.match({
   "location": "StepDefinitions.userOnHomepage()"
 });
 formatter.result({
-  "duration": 45869800,
+  "duration": 22782600,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.userLogsIn()"
 });
 formatter.result({
-  "duration": 1222328800,
+  "duration": 1162797000,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.isAccountServicesDisplayed()"
 });
 formatter.result({
-  "duration": 57536100,
+  "duration": 27705000,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.userLogsOut()"
 });
 formatter.result({
-  "duration": 1025047900,
+  "duration": 907932800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.isCustomerLoginDisplayed()"
 });
 formatter.result({
-  "duration": 36507700,
+  "duration": 23964100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1137496400,
+  "duration": 622106800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5815008200,
+  "duration": 6753028600,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 24,
+  "line": 23,
   "name": "bill payment",
   "description": "",
   "id": "parabank;bill-payment",
@@ -247,32 +235,32 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 25,
+  "line": 24,
   "name": "user is on homepage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 26,
+  "line": 25,
   "name": "user logs in after registration",
   "keyword": "When "
 });
 formatter.step({
-  "line": 27,
+  "line": 26,
   "name": "user clicks on bill pay",
   "keyword": "When "
 });
 formatter.step({
-  "line": 28,
+  "line": 27,
   "name": "verify bill payment service is displayed",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 29,
+  "line": 28,
   "name": "user fill bill payment form and click on send payment",
   "keyword": "When "
 });
 formatter.step({
-  "line": 30,
+  "line": 29,
   "name": "verify bill payment is complete and bill amount is right",
   "keyword": "Then "
 });
@@ -280,54 +268,54 @@ formatter.match({
   "location": "StepDefinitions.userOnHomepage()"
 });
 formatter.result({
-  "duration": 36335100,
+  "duration": 21116600,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.userLogsIn()"
 });
 formatter.result({
-  "duration": 1432599800,
+  "duration": 1072224700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.openBillPayment()"
 });
 formatter.result({
-  "duration": 643267500,
+  "duration": 520726800,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.isBillPaymentServiceDisplayed()"
 });
 formatter.result({
-  "duration": 40085800,
+  "duration": 28084200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.fillBillPayment()"
 });
 formatter.result({
-  "duration": 1270647900,
+  "duration": 666225100,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.isAccountOpened()"
 });
 formatter.result({
-  "duration": 651201200,
+  "duration": 579387900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 679248600,
+  "duration": 613889400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5826503700,
+  "duration": 5841177600,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 32,
+  "line": 31,
   "name": "Update Profile",
   "description": "",
   "id": "parabank;update-profile",
@@ -335,32 +323,32 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 33,
+  "line": 32,
   "name": "user is on homepage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 34,
+  "line": 33,
   "name": "user logs in after registration",
   "keyword": "When "
 });
 formatter.step({
-  "line": 35,
+  "line": 34,
   "name": "user clicks on update contact info",
   "keyword": "When "
 });
 formatter.step({
-  "line": 36,
+  "line": 35,
   "name": "verify update profile is displayed",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 37,
+  "line": 36,
   "name": "user updates city to \u0027Alexandria\u0027",
   "keyword": "When "
 });
 formatter.step({
-  "line": 38,
+  "line": 37,
   "name": "verify profile updated is displayed",
   "keyword": "Then "
 });
@@ -368,28 +356,28 @@ formatter.match({
   "location": "StepDefinitions.userOnHomepage()"
 });
 formatter.result({
-  "duration": 48054200,
+  "duration": 23872300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.userLogsIn()"
 });
 formatter.result({
-  "duration": 1522041600,
+  "duration": 996312100,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.updateContactInfo()"
 });
 formatter.result({
-  "duration": 630906200,
+  "duration": 649604500,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.verifyIfUpdateProfile()"
 });
 formatter.result({
-  "duration": 53884500,
+  "duration": 26496200,
   "status": "passed"
 });
 formatter.match({
@@ -402,26 +390,26 @@ formatter.match({
   "location": "StepDefinitions.updateCity(String)"
 });
 formatter.result({
-  "duration": 1430756100,
+  "duration": 1261101700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.verifyProfileUpdateSuccess()"
 });
 formatter.result({
-  "duration": 34034500,
+  "duration": 17148700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 668153200,
+  "duration": 710753500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6475603800,
+  "duration": 6584648000,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 40,
+  "line": 39,
   "name": "User requests loan",
   "description": "",
   "id": "parabank;user-requests-loan",
@@ -429,32 +417,32 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 41,
+  "line": 40,
   "name": "user is on homepage",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 42,
+  "line": 41,
   "name": "user logs in after registration",
   "keyword": "When "
 });
 formatter.step({
-  "line": 43,
+  "line": 42,
   "name": "verify account services is displayed",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 44,
+  "line": 43,
   "name": "user clicks on request a loan",
   "keyword": "When "
 });
 formatter.step({
-  "line": 45,
+  "line": 44,
   "name": "user fill the application for a loan \"10\" with down payment \"1\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 46,
+  "line": 45,
   "name": "verify the loan is successful",
   "keyword": "Then "
 });
@@ -462,28 +450,28 @@ formatter.match({
   "location": "StepDefinitions.userOnHomepage()"
 });
 formatter.result({
-  "duration": 48379600,
+  "duration": 22079200,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.userLogsIn()"
 });
 formatter.result({
-  "duration": 1451937200,
+  "duration": 1564208100,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.isAccountServicesDisplayed()"
 });
 formatter.result({
-  "duration": 37655300,
+  "duration": 26786500,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.requestALoan()"
 });
 formatter.result({
-  "duration": 891828400,
+  "duration": 725238200,
   "status": "passed"
 });
 formatter.match({
@@ -500,18 +488,18 @@ formatter.match({
   "location": "StepDefinitions.fillLoanApplicationt(String,String)"
 });
 formatter.result({
-  "duration": 390328400,
+  "duration": 219432300,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinitions.verifyLoanIsSuccesful()"
 });
 formatter.result({
-  "duration": 559630100,
+  "duration": 551491100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 662538600,
+  "duration": 626891800,
   "status": "passed"
 });
 });

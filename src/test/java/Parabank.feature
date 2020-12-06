@@ -12,7 +12,6 @@ Feature: Parabank
     When user logs in after registration
     Then verify account services is displayed
     When user logs out
-    Then verify customer login is displayed
 
   Scenario: User Logsout
     Given user is on homepage
