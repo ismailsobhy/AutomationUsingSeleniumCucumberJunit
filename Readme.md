@@ -16,6 +16,6 @@ The project consists of the following:
 * TestRunner.java under org.automation.testrunner. You can define the feature you are using, the StepDefinations.java as the glue used to link to feature and also the path for generating the extent report and path of extent report config.
 
 Installation:
-This project is a maven project, and can be both acquired from github and imported as a maven project in eclipse/intellij. 
+This project is a maven project, and can be both acquired from github and imported as a maven project in eclipse/intellij. The chrome driver stored in src\chromedriver.exe, this supports the last version of chrome browser at the time the project was done, however if chrome brower is of a different version this will make the automation not work. Be sure to download the chrome driver corresponding to chrome browser version
 
 The extent report is stored in target\cucumber-reports\report.html
